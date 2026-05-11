@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { CalendarCheck2, Clock3, HeartHandshake, PhoneCall, ShieldCheck, Sparkles, Stethoscope, Stars, Smile, Timer, Tooth, Workflow } from "lucide-react";
+import { CalendarCheck2, Clock3, HeartHandshake, PhoneCall, ShieldCheck, Sparkles, Stethoscope, Stars, Smile, Timer, Workflow } from "lucide-react";
 import { LeadForm } from "@/components/lead-form";
 import { SectionTitle } from "@/components/section-title";
 
@@ -11,7 +11,7 @@ const benefits = [
 ];
 
 const services = [
-  ["General Dentistry", "Comprehensive exams, fillings, and preventive care for long-term oral health.", Tooth],
+  ["General Dentistry", "Comprehensive exams, fillings, and preventive care for long-term oral health.", ShieldCheck],
   ["Teeth Whitening", "Professional whitening designed to safely brighten your smile in fewer visits.", Stars],
   ["Dental Implants", "Restore missing teeth with durable, natural-looking implant solutions.", Smile],
   ["Invisalign", "Straighten teeth discreetly with clear aligners and expert treatment tracking.", Workflow],
